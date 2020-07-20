@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thyeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>e-reservation</title>
+<link rel="stylesheet" href="/css/styles.css" />
+<link rel="stylesheet" href="/css/bootstrap.min.css" />
+</head>
+<body>
+	<div class="container">
+		<div class="row text-center">
+			<div class="col-12 col-lg-8 offset-lg-2 ">
+				<h3>Login reserva hotelera</h3>
+				<div class="alert alert-light" role="alert">
+					<p th:if="${param.error}" th:text="${errorMsg}" class="error"></p>
+				</div>
+			</div>
+		</div>
+				
+		<div class="row">
+			<div class="form-group col-12 col-lg-8 offset-lg-2 ">
+				<form th:action="@{/app/login}" method="POST">
+					<fieldset>
+						<label class="etiqueta">Usuario:</label> 
+						<input class="input-group form-control" type="text" name="username" /><br /> <br /> 
+						<label class="etiqueta">Clave:</label>
+						<input class="input-group form-control " type="password" name="password" /> <br /><br /> 
+						<input class="btn btn-primary btn-lg btn-block " type="submit" value="Ingresar" />
+					</fieldset>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

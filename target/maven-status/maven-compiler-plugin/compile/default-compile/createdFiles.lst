@@ -1,0 +1,11 @@
+com\hostalpeatonal\ereservation\modelo\Reserva.class
+com\hostalpeatonal\ereservation\vista\controllers\LoginController.class
+com\hostalpeatonal\ereservation\negocio\repository\ReservaRepository.class
+com\hostalpeatonal\ereservation\util\BasicConfiguration.class
+com\hostalpeatonal\ereservation\modelo\Cliente.class
+com\hostalpeatonal\ereservation\negocio\repository\ClienteRepository.class
+com\hostalpeatonal\ereservation\negocio\services\ClienteService.class
+com\hostalpeatonal\ereservation\vista\resources\vo\ClienteVO.class
+com\hostalpeatonal\ereservation\vista\resources\ClienteResource.class
+com\hostalpeatonal\ereservation\util\SwaggerConfiguration.class
+com\hostalpeatonal\ereservation\EReservationApplication.class
